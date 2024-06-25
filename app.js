@@ -68,8 +68,4 @@ sequelize
     console.log(err);
   });
 
-const server = http.createServer(app);
-
-server.listen(port, "0.0.0.0", () => {
-  console.log(`server started on `, port);
-});
+console.log("server running on port",port)
